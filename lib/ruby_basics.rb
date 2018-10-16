@@ -3,7 +3,7 @@ def division(num1, num2)
 end
 
 def assign_variable(value)
-  value = "Bob"
+  name = value
 end
 
 def argue(phrase)
@@ -11,12 +11,11 @@ def argue(phrase)
 end
 
 def greeting(greeting, name)
-  greting = "Hi there,"
-  name = "Bobby!"
+  puts "#{greeting}, #{name}"
 end
 
-def return_a_value(phrase)
- return phrase
+def return_a_value
+  "Nice"
 end
 
 def last_evaluated_value
